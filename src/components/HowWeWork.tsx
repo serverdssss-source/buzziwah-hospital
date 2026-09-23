@@ -10,8 +10,11 @@ const HowWeWork: React.FC = () => {
         <h2 className="mb-6 font-serif text-[2.8rem] leading-[1.2] font-semibold text-text-dark max-lg:text-[2.2rem]">
           How We Build <span className="text-primary-orange">Websites</span>
         </h2>
-        <p className="mx-auto max-w-[700px] text-lg leading-relaxed text-text-gray">
-          We don't just build websites. We build conversion-focused digital experiences for hospitals — tailored to your patients and your brand.
+        <p className="mx-auto max-w-[900px] text-lg leading-relaxed text-text-gray">
+          One Agency. Every Hospital Niche. Full-Funnel Growth.
+        </p>
+        <p className="mx-auto mt-4 max-w-[900px] text-lg leading-relaxed text-text-gray">
+          From super-speciality hospitals to fertility centres, multi-disciplinary practices to neuro-rehab — we build the brand, the website, the content and the campaigns that turn trust into patients.
         </p>
       </div>
 

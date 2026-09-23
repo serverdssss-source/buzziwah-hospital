@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import WhatIsHealthcareMarketing from '../components/WhatIsHealthcareMarketing';
 import ClientLogos from '../components/ClientLogos';
 import FeaturedHospitals from '../components/FeaturedHospitals';
 import HowWeWork from '../components/HowWeWork';
@@ -25,6 +26,7 @@ const Home: React.FC = () => {
     <>
       <Header />
       <Hero />
+      <WhatIsHealthcareMarketing />
       <ClientLogos />
       <FeaturedHospitals />
       <HowWeWork />

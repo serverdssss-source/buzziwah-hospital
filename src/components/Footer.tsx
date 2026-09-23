@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
         <div className="mb-16 grid grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-12 max-lg:grid-cols-2 max-sm:grid-cols-1 max-sm:gap-10">
           <div className="pr-8 max-lg:col-span-full max-lg:max-w-[600px] max-lg:pr-0">
             <div className="mb-8 flex items-center gap-3">
-              <img src="/buzziwah_logo.png" alt="Buzziwah Agency" style={{ height: '40px', objectFit: 'contain', transform: 'scale(2.8)', transformOrigin: 'left center' }} />
+              <img src="/buzziwah.health-white-logo.png" alt="Buzziwah Agency" style={{ height: '40px', objectFit: 'contain', transform: 'scale(2.8)', transformOrigin: 'left center' }} />
             </div>
             <p className="mb-8 text-[0.85rem] leading-relaxed text-slate-500">
-              Buzziwah is a Bengaluru-based digital marketing and web development agency, with a dedicated focus on healthcare brands. We've partnered with hospitals, clinics and fertility centres across India to build their brand, content and patient acquisition with honesty, transparency, and data-driven strategy.
+              Buzziwah is a Bengaluru-based digital marketing agency, with a dedicated focus on healthcare brands. We've partnered with hospitals, clinics and fertility centres across India to build their brand, content and patient acquisition with honesty, transparency, and data-driven strategy.
             </p>
             <div className="flex gap-4">
               <a href="#" className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-800 text-slate-400 transition-all hover:border-slate-600 hover:bg-slate-800 hover:text-white" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>

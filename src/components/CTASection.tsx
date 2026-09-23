@@ -54,31 +54,31 @@ const CTASection: React.FC = () => {
 
           <ul className="mb-5 flex flex-col gap-4">
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">🔍</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></span>
               <span><strong className="text-white">Free website audit</strong> on your current site</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">🎨</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><circle cx="13.5" cy="5.5" r="2.5"/><circle cx="6.5" cy="9.5" r="2.5"/><circle cx="6.5" cy="16.5" r="2.5"/><circle cx="13.5" cy="20.5" r="2.5"/><circle cx="20.5" cy="13.5" r="2.5"/></svg></span>
               <span><strong className="text-white">UI/UX Mockups</strong> & design assistance</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">🚀</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2l.5-.5M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4E6M15 15v5s-3.03-.55-4-2v-2"></path></svg></span>
               <span><strong className="text-white">Technical SEO</strong> on launch</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">✍️</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg></span>
               <span><strong className="text-white">Content Strategy</strong> with the right tone</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">🔒</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></span>
               <span><strong className="text-white">HIPAA Compliance</strong> arranged securely</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">📈</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg></span>
               <span><strong className="text-white">Conversion Tracking</strong> from arrival to booking</span>
             </li>
             <li className="flex items-start gap-3 text-[0.95rem] leading-snug text-slate-200">
-              <span className="text-lg opacity-90">🤝</span>
+              <span className="mt-0.5 text-primary-orange opacity-90"><svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></span>
               <span><strong className="text-white">Support from launch to scale</strong></span>
             </li>
           </ul>

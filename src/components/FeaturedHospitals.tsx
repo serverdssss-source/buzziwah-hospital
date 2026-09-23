@@ -111,7 +111,7 @@ const FeaturedHospitals: React.FC = () => {
     <section className="bg-white px-8 py-24 text-text-dark" id="featured-hospitals">
       <div className="mb-14 text-center">
         <h2 className="mb-4 font-serif text-[2.8rem] leading-[1.2] font-semibold text-text-dark max-lg:text-[2.2rem]">
-          Featured <span className="text-primary-orange">Hospitals</span>
+          Our <span className="text-primary-orange">Case Studies</span>
         </h2>
         <p className="mx-auto max-w-[650px] text-lg text-text-gray">
           World-class hospitals handpicked for quality, accreditation, and patient outcomes
@@ -135,7 +135,8 @@ const FeaturedHospitals: React.FC = () => {
           onScroll={handleScroll}
         >
           {hospitals.map((hospital) => (
-            <div
+            <a
+              href="#case-studies"
               className="flex flex-[0_0_320px] flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-[0_4px_6px_-1px_rgba(0,0,0,0.05),0_2px_4px_-1px_rgba(0,0,0,0.03)] transition-all duration-200 [scroll-snap-align:start] hover:-translate-y-1 hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-2px_rgba(0,0,0,0.05)] max-sm:flex-[0_0_280px]"
               key={hospital.id}
             >
@@ -161,24 +162,13 @@ const FeaturedHospitals: React.FC = () => {
                 </p>
 
                 <div className="mt-auto border-t border-slate-100 pt-4">
-                  {hospital.url ? (
-                    <a
-                      href={hospital.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-1.5 text-sm font-semibold text-primary-orange transition-[gap] hover:gap-2.5"
-                    >
-                      {hospital.linkText}
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                    </a>
-                  ) : (
-                    <span className="cursor-default text-sm font-semibold text-slate-400">
-                      Coming Soon
-                    </span>
-                  )}
+                  <div className="flex items-center gap-1.5 text-sm font-semibold text-primary-orange transition-[gap] hover:gap-2.5">
+                    View Case Study
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 

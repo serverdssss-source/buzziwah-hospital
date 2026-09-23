@@ -23,19 +23,16 @@ const ClientLogos: React.FC = () => {
   return (
     <section className="border-b border-slate-100 bg-bg-light py-20 text-center">
       <div className="mb-14 px-8 text-center">
-        <span className="mb-3 block text-[0.8rem] font-bold tracking-[0.1em] text-subtitle-teal uppercase">
-          OUR PARTNERS
-        </span>
         <h2 className="mb-4 font-serif text-[2.8rem] leading-[1.2] font-semibold text-text-dark">
-          Brands We <span className="text-primary-orange">Work With</span>
+          Our Health Care <span className="text-primary-orange">Partners</span>
         </h2>
       </div>
 
       <div
-        className="group mx-auto w-full max-w-[1400px] overflow-hidden"
+        className="mx-auto w-full max-w-[1400px] overflow-hidden"
         style={{ WebkitMaskImage: 'linear-gradient(to right, transparent 0, black 64px, black calc(100% - 64px), transparent 100%)', maskImage: 'linear-gradient(to right, transparent 0, black 64px, black calc(100% - 64px), transparent 100%)' }}
       >
-        <div className="flex w-max animate-[marquee_28s_linear_infinite] gap-10 group-hover:[animation-play-state:paused]">
+        <div className="flex w-max animate-[marquee_28s_linear_infinite] gap-10">
           {loopLogos.map((logo, index) => (
             <LogoTile key={index} src={logo.src} alt={logo.alt} />
           ))}

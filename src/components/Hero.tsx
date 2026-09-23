@@ -4,11 +4,11 @@ import ContactModal from './ContactModal';
 const heroImages = ['/Banner.png', '/Banner-1.png', '/Banner-2.png'];
 const SLIDE_INTERVAL = 5000;
 
-const stats = [
-  { value: '15', suffix: '+', label: 'PARTNER HOSPITALS' },
-  { value: '45', suffix: '+', label: 'WEBSITES BUILT' },
-  { value: '2,760', suffix: '+', label: 'LEADS GENERATED' },
-  { value: '99', suffix: '%', label: 'SATISFACTION' },
+const features = [
+  <>Regional<br />HealthCare</>,
+  <>SEO driven<br />health care marketing</>,
+  <>Doctor<br />Podcast</>,
+  <>Genuine Leads<br />generated</>,
 ];
 
 const Hero: React.FC = () => {
@@ -29,8 +29,8 @@ const Hero: React.FC = () => {
   const badge = (
     <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-slate-900/60 px-5 py-1.5 backdrop-blur-sm">
       <span>🥇</span>
-      <span className="text-[0.7rem] font-medium tracking-wide text-primary-orange">
-        Trusted by 15+ hospital brands
+      <span className="text-sm font-medium tracking-wide text-primary-orange">
+        Trusted by 20+ Hospital Brands
       </span>
     </div>
   );
@@ -55,17 +55,14 @@ const Hero: React.FC = () => {
   );
 
   const statsGrid = (
-    <div className="flex max-w-[720px] gap-3 max-lg:flex-wrap">
-      {stats.map((stat) => (
+    <div className="flex w-full max-w-[900px] gap-3 max-lg:flex-wrap">
+      {features.map((feature, index) => (
         <div
-          key={stat.label}
-          className="flex flex-1 flex-col items-center justify-center rounded-lg border border-white/15 bg-slate-900/45 px-2.5 py-3.5 text-center backdrop-blur-md max-lg:basis-[calc(50%-1rem)]"
+          key={index}
+          className="flex flex-1 items-center justify-center rounded-lg border border-white/15 bg-slate-900/45 px-3 py-3.5 text-center backdrop-blur-md max-lg:basis-[calc(50%-1rem)]"
         >
-          <div className="mb-1 font-serif text-xl font-semibold text-white" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>
-            {stat.value}<span className="align-super font-sans text-sm font-normal">{stat.suffix}</span>
-          </div>
-          <div className="text-[0.6rem] font-bold tracking-wide text-slate-100 uppercase" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>
-            {stat.label}
+          <div className="whitespace-nowrap text-sm font-semibold tracking-wide text-slate-100" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.6)' }}>
+            {feature}
           </div>
         </div>
       ))}
@@ -105,11 +102,11 @@ const Hero: React.FC = () => {
           {badge}
 
           <h1 className="mb-5 max-w-[700px] font-serif text-[1.75rem] leading-[1.15] font-semibold text-white">
-            One Agency. Every Hospital Niche.<br />Full-Funnel Growth.
+            Health Care Digital Marketing Agency
           </h1>
 
           <p className="mb-8 max-w-[560px] text-sm leading-relaxed text-slate-200">
-            From super-speciality hospitals to fertility centres, multi-disciplinary practices to neuro-rehab — we build the brand, the website, the content and the campaigns that turn trust into patients.
+            We are build specifically for Health care brands for Doctor's, Clinics, Hospital and Health Focused bussiness
           </p>
 
           {actions}
@@ -141,15 +138,14 @@ const Hero: React.FC = () => {
             className="mb-5 max-w-[700px] font-serif text-[2.5rem] leading-[1.15] font-semibold text-white max-lg:text-[2.1rem]"
             style={{ textShadow: '0 2px 8px rgba(0,0,0,0.55)' }}
           >
-            One Agency. Every Hospital Niche.<br />Full-Funnel Growth.
+            Health Care Digital Marketing Agency
           </h1>
 
           <p
             className="mb-8 max-w-[560px] text-sm leading-relaxed text-slate-200"
             style={{ textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}
           >
-            From super-speciality hospitals to fertility centres, multi-disciplinary practices to<br />
-            neuro-rehab — we build the brand, the website, the content and the campaigns that turn trust into patients.
+            We are build specifically for Health care brands for Doctor's, Clinics, Hospital and Health Focused bussiness
           </p>
 
           {actions}
