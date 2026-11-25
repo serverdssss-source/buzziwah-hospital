@@ -153,5 +153,105 @@ export const caseStudies = [
         <p className={p}>We don't want Svatantra to look like a centre simply listing: Physiotherapy. Occupational Therapy. Speech Therapy. We want people to understand why rehabilitation matters, what the journey can involve and where Svatantra fits into that journey. Because before you choose a rehabilitation centre, you need to understand rehabilitation itself.</p>
       </>
     )
+  },
+  {
+    id: 6,
+    tag: 'Film Festival',
+    image: '/cini-mini-case-study.jpg',
+    imagePosition: '50% 50%',
+    title: 'Cini Mini Kannada Short Film Festival 2026',
+    subtitle: 'Celebrating Independent Cinema. Creating a Platform for Emerging Filmmakers.',
+    description: 'Brand identity, website, social media, paid ads, video production and submission management for a Kannada short film festival — 20 lakh+ views.',
+    readTime: '5 min read',
+    content: (
+      <>
+        <div className="mb-8 grid grid-cols-2 gap-4 rounded-xl bg-slate-50 p-6 text-[0.95rem] max-sm:grid-cols-1">
+          <div><span className={strong}>Industry:</span> Entertainment | Film &amp; Media | Events</div>
+          <div><span className={strong}>Marketing Partner:</span> Sripada Studios</div>
+          <div><span className={strong}>Organisers:</span> Tent Cinema &amp; Satya Hegde</div>
+          <div><span className={strong}>Website:</span> <a href="https://ciniminisff.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary-orange">ciniminisff.com</a></div>
+          <div><span className={strong}>Campaign Announcement:</span> June 8, 2026</div>
+          <div><span className={strong}>Festival Dates:</span> November 20 &amp; 22, 2026</div>
+        </div>
+
+        <h5 className={h5}>Project Overview</h5>
+        <p className={p}>Cini Mini Kannada Short Film Festival 2026 was a celebration of independent filmmaking, emerging talent and innovative storytelling. The festival gave filmmakers and creative professionals a platform to showcase their work across four categories: Short Films, AI Films, Mini Series and Vertical Films.</p>
+        <p className={p}>The first edition ran in 2024. The 2026 edition aimed to reach more people, attract more film submissions and build stronger engagement with the Kannada filmmaking community.</p>
+        <p className={p}>Sripada Studios partnered with the festival as its official marketing partner, handling its digital presence, creative communication, promotional campaigns, website development and video production — from the initial announcement to the final award ceremony.</p>
+
+        <h5 className={h5}>The Challenge</h5>
+        <p className={p}>Promoting a film festival requires more than regular social media updates. It requires a consistent communication strategy that connects with filmmakers, film enthusiasts, industry professionals and audiences. The key requirements included:</p>
+        <ul className={ul}>
+          <li className={li}>Establishing a recognisable visual identity for the 2026 edition.</li>
+          <li className={li}>Building awareness among Kannada filmmakers and cinema enthusiasts.</li>
+          <li className={li}>Promoting four distinct submission categories.</li>
+          <li className={li}>Creating a digital platform for festival information and film submissions.</li>
+          <li className={li}>Maintaining consistent communication throughout the campaign.</li>
+          <li className={li}>Promoting selected films and generating excitement around the festival.</li>
+          <li className={li}>Creating awareness and audience interest ahead of the screening and award ceremony.</li>
+        </ul>
+
+        <h5 className={h5}>Our Approach</h5>
+        <p className={p}>Sripada Studios managed the festival's marketing and creative requirements through a combination of branding, digital infrastructure, content production and performance marketing.</p>
+        <ul className={ul}>
+          <li className={li}><strong className={strong}>Brand Identity &amp; Visual Communication</strong> — designing the 2026 festival logo and a visual language reflecting cinema, creativity and independent filmmaking, carried across creatives, social media, the website and event materials.</li>
+          <li className={li}><strong className={strong}>Website Development &amp; Maintenance</strong> — designing, building and maintaining <a href="https://ciniminisff.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary-orange">ciniminisff.com</a>, the festival's central destination for festival information, category details and the submission process.</li>
+          <li className={li}><strong className={strong}>Social Media Management &amp; Content Marketing</strong> — announcements, submission campaigns, category creatives, reels, filmmaker content, selected film announcements, nominations, and screening and award ceremony promotions.</li>
+          <li className={li}><strong className={strong}>Paid Advertising &amp; Campaign Promotion</strong> — paid campaigns that took the festival's communication beyond its existing social media audience and reached new audiences.</li>
+          <li className={li}><strong className={strong}>Film Submission Management</strong> — receiving film entries, organising and sorting them by category, managing submission information and designing digital participation and recognition certificates.</li>
+          <li className={li}><strong className={strong}>Video Production &amp; Event Promotions</strong> — promotional shoots, event promo videos and editing to communicate the festival's identity and encourage participation.</li>
+        </ul>
+
+        <h5 className={h5}>Creative Design Works</h5>
+        <p className={p}>A major part of the campaign was designing creative assets that communicated the festival's identity, submission opportunities and key announcements: festival logo and branding, announcement posters, submission and category creatives, social media posts and carousels, nomination and selected film creatives, screening and award ceremony promotions, event invitations, digital passes and e-certificates.</p>
+
+        <h5 className={h5}>Video Editing &amp; Production Works</h5>
+        <p className={p}>Video was one of the key communication formats throughout the campaign. We produced and edited festival promotional videos, event promo shoots, social media reels, announcement and category-based videos, festival updates, and screening and award ceremony promotions.</p>
+
+        <h5 className={h5}>Campaign Timeline</h5>
+        <ul className={ul}>
+          <li className={li}><strong className={strong}>June 8, 2026 — Official Announcement:</strong> the 2026 edition was announced, launching the digital campaign.</li>
+          <li className={li}><strong className={strong}>Film Submission &amp; Promotion Phase:</strong> content highlighted the four categories and encouraged filmmakers to participate.</li>
+          <li className={li}><strong className={strong}>Campaign &amp; Audience Engagement:</strong> social content, reels, creative announcements and paid ads sustained awareness.</li>
+          <li className={li}><strong className={strong}>November 20, 2026 — Film Screenings:</strong> selected films were screened as part of the festival.</li>
+          <li className={li}><strong className={strong}>November 22, 2026 — Award Ceremony:</strong> the festival concluded by celebrating the participating filmmakers and their work.</li>
+        </ul>
+
+        <h5 className={h5}>Results &amp; Campaign Performance</h5>
+        <p className={p}>Through consistent content production, social media management and paid promotion, the campaign generated over 20 lakh views and reached more than 15 lakh non-followers.</p>
+        <div className="mb-8 grid grid-cols-3 gap-4 max-sm:grid-cols-2">
+          {[
+            ['20 Lakh+', 'Total Views'],
+            ['15 Lakh+', 'Non-Follower Reach'],
+            ['1,300+', 'Instagram Followers'],
+            ['85%', 'Page Growth'],
+            ['54', 'Reels Published'],
+            ['86', 'Posts Published'],
+          ].map(([value, label]) => (
+            <div key={label} className="rounded-xl border border-slate-200 bg-slate-50 p-5 text-center">
+              <div className="font-serif text-[1.8rem] font-semibold text-primary-orange">{value}</div>
+              <div className="text-[0.85rem] text-slate-500">{label}</div>
+            </div>
+          ))}
+        </div>
+        <p className={p}>The campaign extended the festival's visibility beyond its existing audience, introducing Cini Mini to a wider group of cinema enthusiasts, aspiring filmmakers and potential participants.</p>
+
+        <h5 className={h5}>The Takeaway</h5>
+        <p className={p}>For Sripada Studios, the project was about more than creating promotional content. It meant building a digital identity, developing creative communication, supporting submissions and running an integrated marketing campaign for a film festival. We are proud to have partnered with Cini Mini in bringing the 2026 edition to a wider digital audience.</p>
+
+        <h5 className={h5}>Services Delivered</h5>
+        <ul className={ul}>
+          <li className={li}>Brand Identity &amp; Logo Design</li>
+          <li className={li}>Website Development &amp; Maintenance</li>
+          <li className={li}>Social Media Management</li>
+          <li className={li}>Digital Marketing &amp; Paid Advertising</li>
+          <li className={li}>Creative Design &amp; Visual Communication</li>
+          <li className={li}>Video Production, Editing &amp; Post-Production</li>
+          <li className={li}>Film Submission Coordination</li>
+          <li className={li}>Digital Certificate Design</li>
+          <li className={li}>Event Promotional Campaigns</li>
+        </ul>
+      </>
+    )
   }
 ];
